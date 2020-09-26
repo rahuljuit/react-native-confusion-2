@@ -1,0 +1,12 @@
+{
+  "name": "confusion_2",
+  "displayName": "confusion_2",
+  "expo": {
+    "name": "confusion_2",
+    "slug": "confusion_2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
