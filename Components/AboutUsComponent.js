@@ -26,9 +26,7 @@ class About extends Component {
             leaders: LEADERS
         };
     }
-    static navigationOptions = {
-        title: 'About Us'
-    };
+
     render() {
         const renderLeaders = ({ item, index }) => {
             return (

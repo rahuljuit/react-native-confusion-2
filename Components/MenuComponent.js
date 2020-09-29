@@ -11,13 +11,12 @@ class Menu extends Component {
         }
     }
 
-    static navigationOptions = {
-        title: 'Menu'
-    };
+
 
     render() {
         const { navigate } = this.props.navigation;
         const renderMenuItem = ({ item, index }) => {
+            // console.log(JSON.stringify(item));
             return (
                 <View style={{ margin: 5 }}>
                     <ListItem
